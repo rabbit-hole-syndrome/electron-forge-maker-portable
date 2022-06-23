@@ -7,13 +7,13 @@ Electron Forge Maker Portable is a [Maker plugin](https://www.electronforge.io/c
 ## Installation
 
 ```shell
-yarn add -D `@rabbitholesyndrome/electron-forge-maker-portable`
+yarn add -D @rabbitholesyndrome/electron-forge-maker-portable
 ```
 
 or
 
 ```shell
-npm install --save-dev `@rabbitholesyndrome/electron-forge-maker-portable`
+npm install --save-dev @rabbitholesyndrome/electron-forge-maker-portable
 ```
 
 ## Usage
