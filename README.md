@@ -4,9 +4,21 @@
 
 Electron Forge Maker Portable is a [Maker plugin](https://www.electronforge.io/config/makers) for Electron Forge that allows you to bundle your Electron files into a single standalone & portable `.exe` file on Windows.
 
+## Installation
+
+```shell
+yarn add -D `@rabbitholesyndrome/electron-forge-maker-portable`
+```
+
+or
+
+```shell
+npm install --save-dev `@rabbitholesyndrome/electron-forge-maker-portable`
+```
+
 ## Usage
 
-Add `@rabbitholesyndrome/electron-forge-maker-portable` to your `electron-forge` Maker config:
+Add it to your `electron-forge` Maker config:
 
 ```json
 {
