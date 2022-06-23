@@ -6,13 +6,13 @@ Electron Forge Maker Portable is a [Maker plugin](https://www.electronforge.io/c
 
 ## Installation
 
-```shell
+```bash
 yarn add -D @rabbitholesyndrome/electron-forge-maker-portable
 ```
 
 or
 
-```shell
+```bash
 npm install --save-dev @rabbitholesyndrome/electron-forge-maker-portable
 ```
 
@@ -32,6 +32,20 @@ Add it to your `electron-forge` Maker config:
     }
   }
 }
+```
+
+Then run `electron-forge make`:
+
+```bash
+yarn make
+# or `yarn electron-forge make`
+```
+
+or
+
+```bash
+npm run make
+# or `npx electron-forge make`
 ```
 
 ## Background
