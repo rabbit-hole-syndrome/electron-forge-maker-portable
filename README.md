@@ -36,11 +36,11 @@ Add it to your `electron-forge` Maker config:
 
 ## Background
 
-In `electron-forge`, the only built-in way to package Windows binaries is using the `Windows.Squirrel` Maker. Why do we need to package Electron apps? Electron requires a bunch of extra files and dependencies (eg. `.dll` files) in order for the `.exe` file to run, so we need a way to distribute all of these files together.
+In `electron-forge`, the only built-in way to package Windows binaries is using the `Squirrel.Windows` Maker. Why do we need to package Electron apps? Electron requires a bunch of extra files and dependencies (eg. `.dll` files) in order for the `.exe` file to run, so we need a way to distribute all of these files together.
 
-`Windows.Squirrel` works great if you are okay with an "installer" `.exe` that unpacks all the files to a location on the user's PC. If you wish to have a single portable `.exe` instead, this will not work.
+`Squirrel.Windows` works great if you are okay with an "installer" `.exe` that unpacks all the files to a location on the user's PC. If you wish to have a single portable `.exe` instead, this will not work.
 
-Other Electron tools like `electron-builder` support additional targets on top of `Windows.Squirrel`, specifically NSIS (Nullsoft Scriptable Install System). NSIS is capable of bundling all of the Electron files into a single portable `.exe` file.
+Other Electron tools like `electron-builder` support additional targets on top of `Squirrel.Windows`, specifically NSIS (Nullsoft Scriptable Install System). NSIS is capable of bundling all of the Electron files into a single portable `.exe` file.
 
 This plugin injects `electron-builder`'s NSIS portable builder logic into `electron-forge` as a Maker plugin so that you can build portable `.exe` files while staying within the Electron Forge ecosystem.
 
