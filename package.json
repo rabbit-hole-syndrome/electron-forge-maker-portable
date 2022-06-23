@@ -8,6 +8,10 @@
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rabbit-hole-syndrome/electron-forge-maker-portable.git"
+  },
   "scripts": {
     "build": "tsc -b",
     "build:es": "tsc -b tsconfig.es.json",
