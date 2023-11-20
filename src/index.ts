@@ -11,11 +11,6 @@ export default class PortableMaker extends MakerBase<Configuration> {
     return true;
   }
 
-  clone() {
-    const MakerClass = (this as any).constructor;
-    return new MakerClass(this.configOrConfigFetcher, this.platformsToMakeOn);
-  }
-
   async make(options: MakerOptions) {
     if (options.targetPlatform !== "win32") {
       throw new Error("Portable apps can only target the 'win32' platform");
